@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20073331,
+    "separation": 17,
+    "spacing": 25
+  },
+  "structures": [
+    {
+      "structure": "boataddons:granny_mobile",
+      "weight": 1
+    }
+  ]
+}

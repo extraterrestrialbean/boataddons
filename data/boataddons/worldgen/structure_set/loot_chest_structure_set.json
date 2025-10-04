@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20263332,
+    "separation": 11,
+    "spacing": 33
+  },
+  "structures": [
+    {
+      "structure": "boataddons:loot_chest",
+      "weight": 1
+    }
+  ]
+}

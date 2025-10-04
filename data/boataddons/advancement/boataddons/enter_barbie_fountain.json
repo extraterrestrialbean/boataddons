@@ -1,0 +1,40 @@
+{
+    "parent": "boataddons:boataddons/enter_barbie",
+    "criteria": {
+      "enter_barbie_fountain": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "boataddons:barbie_fountain"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Find a Barbie Fountain"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:iron_block"
+      },
+      "title": {
+        "text": "51.5150°N, 0.2160°W"
+      },
+      "frame": "task"
+    },
+    "requirements": [
+      [
+        "enter_barbie_fountain"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

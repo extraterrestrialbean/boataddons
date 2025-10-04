@@ -1,0 +1,65 @@
+{
+    "parent": "boataddons:boataddons/root",
+    "criteria": {
+      "enter_acacia": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "boataddons:acacia"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "enter_barbie": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "boataddons:barbie"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Enter all Boat Addons dimensions"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:end_stone"
+      },
+      "title": {
+        "text": "The End."
+      },
+      "frame": "challenge",
+      "hidden": true
+    },
+    "requirements": [
+      [
+        "enter_acacia"
+      ],
+      [
+        "enter_barbie"
+      ]
+    ],
+    "sends_telemetry_event": false,
+    "rewards": {
+      "recipes": [
+        "boataddons/mending_dirt"
+      ]
+    }
+  }

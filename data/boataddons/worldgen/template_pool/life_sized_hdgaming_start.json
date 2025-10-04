@@ -1,0 +1,15 @@
+{
+  "name": "boataddons:life_sized_hdgaming_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "boataddons:boataddons/life_sized_hdgaming1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

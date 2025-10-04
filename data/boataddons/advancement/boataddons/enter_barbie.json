@@ -1,0 +1,40 @@
+{
+    "parent": "boataddons:boataddons/root",
+    "criteria": {
+      "enter_barbie": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "boataddons:barbie"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Enter the Barbie Dimension"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:pink_terracotta"
+      },
+      "title": {
+        "text": "MY EYES"
+      },
+      "frame": "goal"
+    },
+    "requirements": [
+      [
+        "enter_barbie"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

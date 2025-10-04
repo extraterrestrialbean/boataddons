@@ -1,0 +1,40 @@
+{
+    "parent": "boataddons:boataddons/root",
+    "criteria": {
+      "enter_acacia": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "boataddons:acacia"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Enter the Acacia Dimension"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:acacia_sapling"
+      },
+      "title": {
+        "text": "its so pretty!!"
+      },
+      "frame": "goal"
+    },
+    "requirements": [
+      [
+        "enter_acacia"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

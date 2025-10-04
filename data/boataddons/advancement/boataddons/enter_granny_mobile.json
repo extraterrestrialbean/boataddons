@@ -1,0 +1,40 @@
+{
+    "parent": "boataddons:boataddons/enter_acacia",
+    "criteria": {
+      "enter_granny_mobile": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "boataddons:granny_mobile"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Find a Granny Mobile"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:mangrove_boat"
+      },
+      "title": {
+        "text": "vroom vroom"
+      },
+      "frame": "task"
+    },
+    "requirements": [
+      [
+        "enter_granny_mobile"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20073331,
+    "separation": 12,
+    "spacing": 33
+  },
+  "structures": [
+    {
+      "structure": "boataddons:life_sized_hdgaming",
+      "weight": 1
+    }
+  ]
+}

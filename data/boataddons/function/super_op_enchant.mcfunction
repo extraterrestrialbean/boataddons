@@ -1,0 +1,1 @@
+summon ravager ~ ~10 ~ {CustomName:'"Ravenger"',CustomNameVisible:1b}

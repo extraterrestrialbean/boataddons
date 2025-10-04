@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Choose a Dimension",
+    "external_title": "Dimension Switcher",
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": "Select the dimension you want to be teleported to."
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "text": "Barbie"
+            },
+            "tooltip": {
+                "text": "Teleport to X:0 Y:100 Z:0"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger barbie"
+            }
+        },
+        {
+            "label": {
+                "text": "Acacia"
+            },
+            "tooltip": {
+                "text": "Teleport to X:0 Y:100 Z:0"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger acacia"
+            }
+        },
+        {
+            "label": {
+                "text": "Overworld"
+            },
+            "tooltip": {
+                "text": "Teleport to X:0 Y:100 Z:0"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger overworld"
+            }
+        },
+        {
+            "label": {
+                "text": "Cancel"
+            }
+        }
+    ]
+}

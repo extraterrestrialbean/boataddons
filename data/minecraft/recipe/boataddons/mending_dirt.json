@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0-0",
+    "-+-",
+    "0-0"
+  ],
+  "key": {
+    "0": "minecraft:acacia_boat",
+    "+": "minecraft:goat_horn",
+    "-": "minecraft:pink_petals"
+  },
+  "result": {
+    "id": "minecraft:coarse_dirt",
+    "count": 2,
+    "components": {
+      "minecraft:enchantments": {
+        "minecraft:mending": 2
+      }
+    }
+  },
+  "show_notification": true
+}

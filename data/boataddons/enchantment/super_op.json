@@ -1,0 +1,25 @@
+{
+    "description": "SUPER OP!!111!!!!one!!",
+    "supported_items": ["wooden_shovel", "stone_shovel", "golden_shovel", "iron_shovel", "diamond_shovel", "netherite_shovel"],
+    "primary_items": ["wooden_shovel", "stone_shovel", "golden_shovel", "iron_shovel", "diamond_shovel", "netherite_shovel"],
+    "slots": ["mainhand"],
+    "weight": 5,
+    "anvil_cost": 2,
+    "min_cost": {
+        "base": 6,
+        "per_level_above_first": 1
+    },
+    "max_cost": {
+        "base": 30,
+        "per_level_above_first": 2
+    },
+    "max_level": 1,
+    "effects": {
+        "minecraft:hit_block": [{
+            "effect": {
+                "type": "run_function",
+                "function": "boataddons:super_op_enchant"
+            }
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 3,
+        "bonus_rolls": 2.5,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot",
+            "weight": 3
+          }
+        ]
+      }
+    ]
+  }
+  

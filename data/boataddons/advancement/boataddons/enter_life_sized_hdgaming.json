@@ -1,0 +1,43 @@
+{
+    "parent": "boataddons:boataddons/enter_barbie",
+    "criteria": {
+      "enter_life_sized_hdgaming": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "boataddons:life_sized_hdgaming"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Find a Life Sized HDGaming"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:player_head",
+        "components": {
+          "minecraft:profile": "HDGaming"
+        }
+      },
+      "title": {
+        "text": "im a barbie girl"
+      },
+      "frame": "goal"
+    },
+    "requirements": [
+      [
+        "enter_life_sized_hdgaming"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
