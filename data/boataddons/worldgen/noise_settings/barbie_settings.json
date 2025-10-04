@@ -624,10 +624,7 @@
           "then_run": {
             "type": "minecraft:block",
             "result_state": {
-              "Name": "minecraft:magenta_terracotta",
-              "Properties": {
-                "axis": "y"
-              }
+              "Name": "minecraft:magenta_terracotta"
             }
           }
         }
